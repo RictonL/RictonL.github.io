@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Weather App Plan | RictonL.github.io | </title>
+	<meta name="description" content="Mobile Weather App Site Plan Feeling Lucky">
+	<meta name="viewport" content="width=device-width">
+	<style>
+		body {
+			background-color: white;
+			color: black;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>RictonL.github.io</h1>
+		<nav>
+			<ul>
+				<li><a href="/RictonL.github.io/index.html">Home</a> </li>
+				<li><a href="/RictonL.github.io/homework/mobile-analysis.html">Mobile Analysis</a> </li>
+				<li><a href="/RictonL.github.io/sandbox/Poem.html">Poem</a> </li>
+				<li><a href="#">Weather</a> </li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Mobile Weather App Site Plan</h1>
+		<h2>Purpose</h2>
+		The client would like a web based weather app created. The purpose of the site is to give current weather conditions in 3 different ways. The initial landing page will give the weather for the current location based on the Geocoding information given by the browser. The second is weather for 3 specific locations accessible through a dedicated link, and the third is weather for any location determined by a search string.
+		<h2>Audience</h2>
+		<section>
+			Primary audience is adults ages 18-30. Most will be students. Access to the site will be split between mobile devices and laptops.
+			<h3>Audience Goals</h3>
+			College students move around quite a bit so one goal would be to quickly get the weather conditions for their current location as they head off to class or study. They are also often far from their homes so the ability to quickly get the conditions for a specific location is important as well. The third goal deals with planning for travels...the ability to get weather conditions for any location will help with last minute packing for road trips.
+			<h3>Personas</h3>
+			<a href="images/cool-joe.jpg">
+				<img src="images/cool-joe.jpg" alt="Cool Joe" style="width:200px;height:200px;">
+			</a>
+			<ul>
+				<li><b>Name:</b> Joe Cool</li>
+				<li><b>Occupation:</b> Student</li>
+				<li><b>Age:</b> Undetermined</li>
+				<li><b>Interests:</b> Traveling, seeing new things</li>
+				<li><b>Motivation:</b> Joe is not into planning. His last minute scrambling, whether it is getting to class in the morning or heading out on his latest adventure, has left him unprepared for weather conditions many times (He is tired of sleeping in the rain and snow). He would like to be more prepared...without having to put much effort into it...or planning.</li>
+				<li><b>Environment:</b> Joe is comfortable using laptops and Mobile devices, he will most often be found on a smart phone however. Many of the places he frequents do not have great signal…he is often dealing with 3G speeds.</li>
+			</ul><br>
+			<a href="images/lucy.jpg">
+				<img src="images/lucy.jpg" alt="Lucy" style="width:200px;height:200px;">
+			</a>
+			<ul>
+				<li><b>Name:</b> Lucy van Pelt</li>
+				<li><b>Occupation:</b> Student</li>
+				<li><b>Age:</b> 18</li>
+				<li><b>Interests:</b> Giving advice, Psychology</li>
+				<li><b>Motivation:</b> Lucy is a no nonsense young lady who likes to help those around her. She wants easy access to the weather conditions for many locations so that she can always be prepared to offer some unsolicited advice to her peers</li>
+				<li><b>Environment:</b> Lucy has a smart phone that she uses to keep her eye on her social media ‘friends’. She is usually not very far from her trusty laptop however. Most of her time online is spent either on the University network or the apartment broadband.</li>
+			</ul>
+		</section>
+		<h2>Content</h2>
+		<section>
+			All weather pages should include Location name, temperature, high, low, current weather descriptor, precipitation, and wind on small, and hourly temps should be added on larger screens. (See provided weather data file for more details)
+			<h3>Pages</h3>
+			<ol>
+				<li><b>Home:</b> weather for the current location. Current location should be determined by using the Geolocation API of the browser. This information should be passed to the WeatherUnderground API (https://www.wunderground.com/weather/api/) to retrieve the current conditions.</li>
+				<li><b>Franklin, Greenville, Springfield:</b> weather for each specific location. The weather for The Franklin and Greenville pages should be pulled from a local JSON file that will be provided.</li>
+				<li><b>Search:</b> Begins with only a search box, characters entered will cause a list of suggested matches to appear. Selected location will pull up the weather. The search term from the field should be sent to the WeatherUnderground autocomplete API (https://www.wunderground.com/weather/api/d/docs?d=autocomplete-api&MR=1), and the results used to pull the current conditions for the selected location.</li>
+			</ol>
+		</section>
+		<h2>Styles</h2>
+		<section>
+			<h3>Branding</h3>
+			The client provided the following initial concept for a name and logo: (You recognize that this logo could easily be re-created entirely with CSS using the right font and HTML entities… &#9856; &#9861;)<br>
+			<a href="images/logo-blue.jpg">
+				<img src="images/logo-blue.jpg" alt="Logo" style="border:0;">
+			</a>
+			<h3>Typography</h3>
+			The client also expressed interest in the following fonts:<br><br>
+			<b>Heading Font:</b> Sansita from Google Fonts <br>
+			<a href="images/sanita-alphabet.jpg">
+				<img src="images/sanita-alphabet.jpg" alt="Sansita alphabet" style="border:0;">
+			</a> <br>
+			<a href="images/sansita-headline.jpg">
+				<img src="images/sansita-headline.jpg" alt="Sansita headline" style="border:0;">
+			</a><br>
+			<br><b>Body Copy Font:</b> Helvetica
+			<p>A B C Ć Č D Đ E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž <br>a b c č ć d đ e f g h i j k l m n o p q r s š t u v w x y z ž 1 2 3 4 5 6 7 8 9 0 <br>‘ ? ’ “ ! ” ( % ) [ # ] { @ } / - + ÷ × = ® © $ € £ ¥ ¢ : ; , . *</p>
+			<p>Lorem ipsum nonsed eicillabore essum fugit lantisit, si nis eictia num fugiam et quatquis resto eossitem quunt quae sit dolupis maio omnimo il id maio bea ipid que conseque volorem. Et facidebit vel ma doluptasitis num, ullandebit hicto beaquos tiumquis postrum cori odit eosam quiatur? Volo quid minvel earuptatem quiatur?</p>
+			<h3>Colors</h3>
+			<table>
+				<tbody>
+					<tr>
+						<td> <img src="images/primary-swatch.png" alt="Primary swatch"></td>
+						<td> <img src="images/secondary-swatch.png" alt="Secondary swatch"></td>
+						<td> <img src="images/accent1-swatch.png" alt="Accent 1"></td>
+						<td> <img src="images/accent2-swatch.png" alt="Accent 2"></td>
+					</tr>
+					<tr>
+						<td>Primary: #A6D8DB</td>
+						<td>Secondary: #F07C6C</td>
+						<td>Accent1: #E7EF61</td>
+						<td>Accent2: #47556F</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>Elements</h3>
+			(add usability note on each element)
+			<h4>Navigation:</h4>
+			<a href="images/nav-bar.jpg">
+				<img src="images/nav-bar.jpg" alt="Navigation Bar" style="width:525px;height:42px;">
+			</a>
+			<br>Link:normal : #4A4653
+			<br>Link:visited : #4A4653
+			<br>Link:hover : #E7EF61
+			<br>Link:active : #A6D8DB
+			<h4>Opaque rounded content box:</h4>
+			<a href="images/rounded-example.jpg">
+				<img src="images/rounded-example.jpg" alt="Rounded example" style="border:0;">
+			</a>
+			<br>background-color: rgba(200,200,200,.6);
+			<br>margin: .2em auto;
+			<br>border: 1px solid;
+			<br>border-radius: 5px;
+		</section>
+		<h2>Wireframes</h2>
+		<section>
+			<h3>Small Screen</h3>
+			<a href="images/wireframe-sm.png">
+				<img src="images/wireframe-sm.png" alt="Wireframe small" style="border:0;">
+			</a>
+			<h3>Large Screen</h3>
+			<a href="images/wireframe-lg.jpg">
+				<img src="images/wireframe-lg.jpg" alt="Wireframe large" style="border:0;">
+			</a>
+		</section>
+	</main>
+	<footer>
+		<small>Last Updated: 29 April 2017 | &copy; 2017 Ricton Larsen</small>
+	</footer>
+
+
+</body>
+
+</html>
