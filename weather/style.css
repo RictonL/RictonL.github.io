@@ -1,4 +1,4 @@
-* {
+	* {
 	box-sizing: border-box;
 }
 
@@ -14,16 +14,136 @@ figure {
 	display: block
 }
 
+.head {
+	display: flex;
+	background: gray;
+	width: 100%;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-left: -8px;
+	margin-top: -9px;
+	position: fixed;
+	height: 17vh;
+}
+
+.title h1 {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 2em;
+	margin: 3vh
+}
+
+.title h2 {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -.7em;
+	font-size: 1.2em
+}
+
 main {
+	display: flex;
+	height: 73vh;
+	flex-flow: column nowrap;
+	background-image: url("images/sunny-winter.jpg");
+	background-size: cover;
+	margin: -8px;
+	align-items: center;
+	position: relative;
+	top: 15vh;
+	align-content: space-between;
+}
+
+#location {
+	margin: auto;
+	margin-top: 3vh;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#current-simple {
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	border-style: solid;
+	height: 18vh;
+	width: 100px;
+	margin-top: 0vh;
+	background: white;
+	opacity: .5;
+}
+
+#current-simple h4 {
+	font-size: 3em;
+	margin: 0px;
+	margin-top: 2vh;
+}
+
+#current-simple h5 {
+	margin-top: 2vh;
+	margin-bottom: 0px;
+}
+
+#current {
+	border-radius: 20px;
+	border-style: solid;
+	border-color: aqua;
+	border-width: thick;
+	background: white;
+	opacity: .5;
+	align-self: center;
+	margin: auto;
+	margin-top: 6vh;
+}
+
+#current h2 {
+	width: 100%;
+	margin-left: 15px;
+	margin-bottom: 0px;
+	margin-top: 1vh;
+}
+
+.current {
+	display: flex;
+	flex-flow: column;
+	flex-wrap: wrap;
+	height: 113px;
+	justify-content: flex-start;
+	align-content: center;
+	margin-top: 3px;
+}
+
+.current h3 {
+	height: 2em;
+	align-self: flex-end;
+	margin-top: 0;
+	font-size: 1.05em;
+}
+
+.current p {
+	margin-bottom: 8px;
+	margin-top: 0px;
+}
+
+#hourly {
+	display: none;
+}
+
+footer {
+	background: gray;
+	width: 100%;
+	position: fixed;
+	bottom: 7vh;
+	left: 0;
+	padding: 0;
+	height: 5vh;
 }
 
 nav ul {
 	display: flex;
-	align-content: space-between;
-	height: auto;
+	flex-flow: row;
+	justify-content: space-around;
+	height: 7vh;
 	line-height: inherit;
 	position: fixed;
 	bottom: 0;
@@ -33,46 +153,18 @@ nav ul {
 	list-style: none;
 	margin: auto;
 	background: gray;
-	}
+}
 
 nav ul li {
-	padding-right: 1em;
+	align-self: center;
 }
 
-.title h1+h1 {
-	text-align: right;
-	margin-top: -.7em;
+.hide-small {
+	display: none;
 }
 
-#hourly {
-	visibility: collapse;
-	height: 0
+@media (min-width: 550px) {
+	body {
+		background: green;
+	}
 }
-
-#current {
-	display: flex;
-	flex-flow: wrap;
-	align-content: space-between;
-	justify-content: flex-end;
-
-}
-
-#current h2 {
-	flex-grow: 5;
-	justify-content: flex-end;
-}
-
-#current h3 {
-	flex-grow: 1;
-}
-
-#current p {
-	flex-grow: 1;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	background-color: salmon;
-}
-

@@ -10,45 +10,45 @@
 </head>
 
 <body>
+	<section class="head">
+		<div class="title">
+			<h1><span>&#9856;</span><span>&#9861;</span> Feeling Lucky?</h1>
+			<h2>Local Weather</h2>
+		</div>
+	</section>
+
+	<section class="nav-bar">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a> </li>
+				<li><a href="#">Franklin</a> </li>
+				<li><a href="#">Greenville</a> </li>
+				<li><a href="#">Springfield</a> </li>
+				<li><a href="#">Search</a> </li>
+			</ul>
+		</nav>
+	</section>
+
 	<main>
-		<section class="head">
-			<div class="title">
-				<h1><span>&#9856;</span><span>&#9861;</span> Feeling Lucky?</h1>
-				<h1>Local Weather</h1>
-			</div>
-		</section>
-		<section class="nav-bar">
-			<nav>
-				<ul>
-					<li><a href="#">Home</a> </li>
-					<li><a href="#">Franklin</a> </li>
-					<li><a href="#">Greenville</a> </li>
-					<li><a href="#">Springfield</a> </li>
-					<li><a href="#">Search</a> </li>
-				</ul>
-			</nav>
+		<article id="location">
+			<h1><b>Frankin, ID</b></h1>
+		</article>
+		<section id="current-simple">
+			<h4><b>16</b></h4>
+			<h5>&#9728; 17/3</h5>
 		</section>
 		<section id="current">
 			<h2>Current Conditions</h2>
-			<h3>Wind</h3>
-			Windspeed
-			<p>Direction</p>
-			<h3>Precipitation</h3>
-			Inces
-		</section>
-		<section id="location/temp">
-			<article id="location">
-				<img src="http://lorempixel.com/25/25/abstract" alt="mini-logo">
-				<h1><b>Frankin, ID</b></h1>
-				<p><img>&#9728;</img>Sunny</p>
-			</article>
-			<article id="high/low">
-				<h4><b>Current Temp</b></h4>
-				<img src="http://lorempixel.com/25/25/abstract" alt="sun">
-				<p>High/Low</p>
-			</article>
+			<section class="current">
+				<h3>Wind:</h3>
+				<h3>Precipitation:</h3>
+				<p>1-5 MPH</p>
+				<p>Southwest</p>
+				<p>0 in</p>
+			</section>
 		</section>
 	</main>
+
 	<section id="hourly">
 		<img src="http://lorempixel.com/25/25/abstract" alt="mini-logo">
 		<h2>Hourly Forecast</h2>
@@ -59,6 +59,7 @@
 			<li>9:00am 77</li>
 		</ul>
 	</section>
+
 	<footer>
 		<small>&copy; 2017 Ricton Larsen | <a href="/RictonL.github.io/">Home Page</a></small>
 	</footer>
