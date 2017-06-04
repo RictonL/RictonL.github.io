@@ -17,13 +17,14 @@ figure {
 .head {
 	display: flex;
 	background: gray;
-	width: 100%;
+	width: 100vw;
 	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin-left: -8px;
 	margin-top: -9px;
-	position: fixed;
+	margin-bottom: 0;
+	position: static;
 	height: 17vh;
 }
 
@@ -43,13 +44,13 @@ figure {
 
 main {
 	display: flex;
-	height: 73vh;
+	height: 71.5vh;
+	width: 103%;
 	flex-flow: column nowrap;
 	background-image: url("images/sunny-winter.jpg");
 	background-size: cover;
-	margin: -8px;
+	margin-left: -8px;
 	align-items: center;
-	position: relative;
 	top: 15vh;
 	align-content: space-between;
 }
@@ -151,7 +152,8 @@ nav ul {
 	right: 0;
 	padding: 0;
 	list-style: none;
-	margin: auto;
+	margin: 0;
+	width: 100vw;
 	background: gray;
 }
 
@@ -163,8 +165,49 @@ nav ul li {
 	display: none;
 }
 
-@media (min-width: 550px) {
-	body {
-		background: green;
+@media (min-width: 34em) {
+	.title {
+		width: 20em;
 	}
-}
+
+	nav ul {
+		position: static;
+		margin-left: -8px;
+	}
+
+	footer {
+		position: static;
+		width: 100vw;
+		margin-left: -8px;
+		margin-bottom: 0px;
+	}
+
+	main {
+		height: 69.5vh;
+		flex-direction: row;
+		align-items: stretch;
+	}
+
+	main > section {
+		flex: 1 0 30%;
+		border-style: solid;
+		margin: 0;
+		border-color: black;
+	}
+
+	#current {
+		border-radius: 0px;
+		margin: 0;
+		order: 1
+	}
+
+	#center {
+		order: 2;
+		align-content: center;
+	}
+
+	#hourly {
+		display: flex;
+		order: 3;
+	}
+
