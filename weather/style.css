@@ -196,18 +196,30 @@ nav ul li {
 	}
 
 	#current {
-		border-radius: 0px;
+		border-style: none;
 		margin: 0;
-		order: 1
+		order: 1;
+		background: none;
+		opacity: 1;
+		align-self: flex-start;
 	}
 
 	#center {
 		order: 2;
-		align-content: center;
+		align-items: center;
 	}
 
 	#hourly {
 		display: flex;
 		order: 3;
+		flex-direction: column;
 	}
 
+	#current-simple {
+
+	}
+
+	#location {
+		margin: 0;
+		align-self: flex-start;
+	}
