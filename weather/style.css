@@ -16,7 +16,7 @@ figure {
 
 .head {
 	display: flex;
-	background: gray;
+	background: #afdcdf;
 	width: 100vw;
 	align-items: center;
 	flex-direction: column;
@@ -131,7 +131,7 @@ main {
 }
 
 footer {
-	background: gray;
+	background: #afdcdf;
 	width: 100%;
 	position: fixed;
 	bottom: 7vh;
@@ -154,7 +154,7 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	width: 100vw;
-	background: gray;
+	background: salmon;
 }
 
 nav ul li {
@@ -186,6 +186,7 @@ nav ul li {
 		height: 69.5vh;
 		flex-direction: row;
 		align-items: stretch;
+		background: none;
 	}
 
 	main > section {
@@ -207,6 +208,8 @@ nav ul li {
 	#center {
 		order: 2;
 		align-items: center;
+		background-image: url("images/sunny-winter.jpg");
+		background-size: cover;
 	}
 
 	#hourly {
@@ -216,7 +219,8 @@ nav ul li {
 	}
 
 	#current-simple {
-
+		height: 38vh;
+		width: 25vw;
 	}
 
 	#location {
