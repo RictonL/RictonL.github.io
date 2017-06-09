@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Responsive Navbar | Ricton.github.io</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		header {
+			margin: 0;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		nav {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			width: 100vw;
+			background-color: #333;
+		}
+
+		ul.topnav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		ul.topnav li {}
+
+		ul.topnav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		ul.topnav li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		ul.topnav-right li a:hover:not(.active) {
+			background-color: #111;
+		}
+
+		ul.topnav li a.active {
+			background-color: #4CAF50;
+		}
+
+		ul.topnav-right {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			display: flex;
+			flex-direction: column;
+			align-items: center
+		}
+
+		ul.topnav li a {
+			display: flex;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		ul.topnav-right li a {
+			display: flex;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			align-content: flex-end;
+			top: 0;
+			right: 0px;
+			margin: auto;
+			background-color: #333;
+		}
+
+		@media screen and (min-width: 600px) {
+			ul.topnav li.right,
+			ul.topnav li {}
+			span .topnav {
+				display: flex;
+			}
+			ul.topnav {
+				flex-direction: row;
+			}
+			ul.topnav-right {
+				flex-direction: row;
+				position: absolute;
+				right: 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+	<nav>
+		<ul class="topnav">
+			<li><a class="active" href="/RictonL.github.io/index.html">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<ul class="topnav-right">
+			<li class="right"><a href="#about">About</a></li>
+		</ul>
+	</nav>
+	</header>
+	<main>
+	<div style="padding:0 16px;">
+		<h2>Responsive Topnav Example</h2>
+		<p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+		<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+		<h4>Resize the browser window to see the effect.</h4>
+	</div>
+	</main>
+</body>
+
+</html>

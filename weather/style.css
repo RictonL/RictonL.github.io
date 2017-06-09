@@ -1,229 +1,225 @@
-	* {
-	box-sizing: border-box;
-}
-
-article,
-aside,
-footer,
-header,
-nav,
-section,
-main,
-figcaption,
-figure {
-	display: block
-}
-
-.head {
-	display: flex;
-	background: #afdcdf;
-	width: 100vw;
-	align-items: center;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin-left: -8px;
-	margin-top: -9px;
-	margin-bottom: 0;
-	position: static;
-	height: 17vh;
-}
-
-.title h1 {
-	display: flex;
-	justify-content: flex-start;
-	font-size: 2em;
-	margin: 3vh
-}
-
-.title h2 {
-	display: flex;
-	justify-content: flex-end;
-	margin-top: -.7em;
-	font-size: 1.2em
-}
-
-main {
-	display: flex;
-	height: 71.5vh;
-	width: 103%;
-	flex-flow: column nowrap;
-	background-image: url("images/sunny-winter.jpg");
-	background-size: cover;
-	margin-left: -8px;
-	align-items: center;
-	top: 15vh;
-	align-content: space-between;
-}
-
-#location {
-	margin: auto;
-	margin-top: 3vh;
-	text-align: center;
-	font-size: 1.3em;
-}
-
-#current-simple {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
-	border-style: solid;
-	height: 18vh;
-	width: 100px;
-	margin-top: 0vh;
-	background: white;
-	opacity: .5;
-}
-
-#current-simple h4 {
-	font-size: 3em;
-	margin: 0px;
-	margin-top: 2vh;
-}
-
-#current-simple h5 {
-	margin-top: 2vh;
-	margin-bottom: 0px;
-}
-
-#current {
-	border-radius: 20px;
-	border-style: solid;
-	border-color: aqua;
-	border-width: thick;
-	background: white;
-	opacity: .5;
-	align-self: center;
-	margin: auto;
-	margin-top: 6vh;
-}
-
-#current h2 {
-	width: 100%;
-	margin-left: 15px;
-	margin-bottom: 0px;
-	margin-top: 1vh;
-}
-
-.current {
-	display: flex;
-	flex-flow: column;
-	flex-wrap: wrap;
-	height: 113px;
-	justify-content: flex-start;
-	align-content: center;
-	margin-top: 3px;
-}
-
-.current h3 {
-	height: 2em;
-	align-self: flex-end;
-	margin-top: 0;
-	font-size: 1.05em;
-}
-
-.current p {
-	margin-bottom: 8px;
-	margin-top: 0px;
-}
-
-#hourly {
-	display: none;
-}
-
-footer {
-	background: #afdcdf;
-	width: 100%;
-	position: fixed;
-	bottom: 7vh;
-	left: 0;
-	padding: 0;
-	height: 5vh;
-}
-
-nav ul {
-	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
-	height: 7vh;
-	line-height: inherit;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 0;
-	list-style: none;
-	margin: 0;
-	width: 100vw;
-	background: salmon;
-}
-
-nav ul li {
-	align-self: center;
-}
-
-.hide-small {
-	display: none;
-}
-
-@media (min-width: 34em) {
-	.title {
-		width: 20em;
+		* {
+		box-sizing: border-box;
+		max-width: 800px;
+			display: flex;
+			align-self: flex-end;
+			flex-flow: column;
+			flex-wrap: nowrap;
 	}
 
-	nav ul {
-		position: static;
-		margin-left: -8px;
+	article,
+	aside,
+	footer,
+	header,
+	nav,
+	section,
+	main,
+	figcaption,
+	figure {
+		display: block
 	}
 
-	footer {
-		position: static;
+	.head {
+		display: flex;
+		background: #afdcdf;
 		width: 100vw;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
 		margin-left: -8px;
-		margin-bottom: 0px;
+		margin-top: -9px;
+		margin-bottom: 0;
+		position: static;
+		height: 17vh;
+	}
+
+	.title h1 {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 2em;
+		margin: 3vh
+	}
+
+	.title h2 {
+		display: flex;
+		justify-content: flex-end;
+		margin-top: -.7em;
+		font-size: 1.2em
 	}
 
 	main {
-		height: 69.5vh;
-		flex-direction: row;
-		align-items: stretch;
-		background: none;
-	}
-
-	main > section {
-		flex: 1 0 30%;
-		border-style: solid;
-		margin: 0;
-		border-color: black;
-	}
-
-	#current {
-		border-style: none;
-		margin: 0;
-		order: 1;
-		background: none;
-		opacity: 1;
-		align-self: flex-start;
-	}
-
-	#center {
-		order: 2;
-		align-items: center;
+		display: flex;
+		height: 71.5vh;
+		width: 103%;
+		flex-flow: column nowrap;
 		background-image: url("images/sunny-winter.jpg");
 		background-size: cover;
-	}
-
-	#hourly {
-		display: flex;
-		order: 3;
-		flex-direction: column;
-	}
-
-	#current-simple {
-		height: 38vh;
-		width: 25vw;
+		margin-left: -8px;
+		align-items: center;
+		top: 15vh;
+		align-content: space-between;
 	}
 
 	#location {
-		margin: 0;
-		align-self: flex-start;
+		margin: auto;
+		margin-top: 3vh;
+		text-align: center;
+		font-size: 1.3em;
 	}
+
+	#current-simple {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		border-style: solid;
+		height: 18vh;
+		width: 100px;
+		margin-top: 0vh;
+		background: white;
+		opacity: .5;
+	}
+
+	#current-simple h4 {
+		font-size: 3em;
+		margin: 0px;
+		margin-top: 2vh;
+	}
+
+	#current-simple h5 {
+		margin-top: 2vh;
+		margin-bottom: 0px;
+	}
+
+	#current {
+		border-radius: 20px;
+		border-style: solid;
+		border-color: aqua;
+		border-width: thick;
+		background: white;
+		opacity: .5;
+		align-self: center;
+		margin: auto;
+		margin-top: 6vh;
+	}
+
+	#current h2 {
+		width: 100%;
+		margin-left: 15px;
+		margin-bottom: 0px;
+		margin-top: 1vh;
+	}
+
+	.current {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: wrap;
+		height: 113px;
+		justify-content: flex-start;
+		align-content: center;
+		margin-top: 3px;
+	}
+
+	.current h3 {
+		height: 2em;
+		align-self: flex-end;
+		margin-top: 0;
+		font-size: 1.05em;
+	}
+
+	.current p {
+		margin-bottom: 8px;
+		margin-top: 0px;
+	}
+
+	#hourly {
+		display: none;
+	}
+
+	footer {
+		background: #afdcdf;
+		width: 100%;
+		position: fixed;
+		bottom: 7vh;
+		left: 0;
+		padding: 0;
+		height: 5vh;
+	}
+
+	nav ul {
+		display: flex;
+		flex-flow: row;
+		justify-content: space-around;
+		height: 7vh;
+		line-height: inherit;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		list-style: none;
+		margin: 0;
+		width: 100vw;
+		background: salmon;
+	}
+
+	nav ul li {
+		align-self: center;
+	}
+
+	.hide-small {
+		display: none;
+	}
+
+	@media (min-width: 34em) {
+		.title {
+			width: 20em;
+		}
+		nav ul {
+			position: static;
+			margin-left: -8px;
+		}
+		footer {
+			position: static;
+			width: 100vw;
+			margin-left: -8px;
+			margin-bottom: 0px;
+		}
+		main {
+			height: 69.5vh;
+			flex-direction: row;
+			align-items: stretch;
+			background: none;
+		}
+		main>section {
+			flex: 1 0 30%;
+			border-style: solid;
+			margin: 0;
+			border-color: black;
+		}
+		#current {
+			border-style: none;
+			margin: 0;
+			order: 1;
+			background: none;
+			opacity: 1;
+			align-self: flex-start;
+		}
+		#center {
+			order: 2;
+			align-items: center;
+			background-image: url("images/sunny-winter.jpg");
+			background-size: cover;
+		}
+		#hourly {
+			display: flex;
+			order: 3;
+			flex-direction: column;
+		}
+		#current-simple {
+			height: 38vh;
+			width: 25vw;
+		}
+		#location {
+			margin: 0;
+			align-self: flex-start;
+		}
