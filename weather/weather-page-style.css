@@ -1,0 +1,48 @@
+* {
+
+}
+
+.body-font {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.fanklin {
+	display: none;
+}
+
+#wireframe {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#wireframe h2 {
+	width: 100%
+}
+
+#wireframe img {
+	height: 40vw;
+	margin: auto;
+
+}
+
+#fonts-colors {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 16em;
+	align-content: space-around;
+}
+
+#fonts-colors h3 {
+	font-family: 'Merriweather', serif;
+}
+
+#fonts-colors p {
+	font-family: 'Droid Sans', sans-serif;
+	width: 50%;
+}
+
+#fonts-colors img {
+	width: 50%;
+}
