@@ -30,7 +30,7 @@
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	height: 16em;
+	height: auto;
 	align-content: space-around;
 }
 
@@ -40,9 +40,23 @@
 
 #fonts-colors p {
 	font-family: 'Droid Sans', sans-serif;
-	width: 50%;
+	width: 100%;
 }
 
 #fonts-colors img {
-	width: 50%;
+	width: 100%;
+}
+
+@media (min-width: 39em) {
+	#fonts-colors {
+		height: 16em;
+	}
+
+	#fonts-colors p {
+		width: 50%;
+	}
+
+	#fonts-colors img {
+		width: 50%;
+	}
 }
