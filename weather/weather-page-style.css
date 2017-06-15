@@ -1,6 +1,4 @@
-* {
-
-}
+* {}
 
 .body-font {
 	font-family: Helvetica, Arial, sans-serif;
@@ -13,7 +11,6 @@
 #wireframe {
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
 #wireframe h2 {
@@ -23,7 +20,6 @@
 #wireframe img {
 	height: 40vw;
 	margin: auto;
-
 }
 
 #fonts-colors {
@@ -51,11 +47,9 @@
 	#fonts-colors {
 		height: 16em;
 	}
-
 	#fonts-colors p {
 		width: 50%;
 	}
-
 	#fonts-colors img {
 		width: 50%;
 	}
