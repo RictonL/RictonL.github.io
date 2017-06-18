@@ -1,0 +1,306 @@
+* {
+	margin: 0;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin: auto;
+}
+
+h1 {
+	font-size: 4em;
+	color: #154275;
+	line-height: .687em;
+	width: 4em;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#header img {
+	height: 8.5em;
+}
+
+#header h2 {
+	font-size: 5.5em;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
+	color: #0d7852;
+	display: none;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	height: 7vh;
+	line-height: inherit;
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	background-color: #4f9e11;
+	align-items: center;
+}
+
+nav ul li {
+	align-self: center;
+}
+
+main {
+	background-image: url("/RictonL.github.io/weather/images/sunny-day-background.jpg");
+	background-size: cover;
+}
+
+#temp {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+#temp h2 {
+	align-self: center;
+	font-size: 2.5em;
+	margin: 0;
+	margin-top: .3em
+}
+
+#temp p {
+	align-self: center;
+	font-size: 10em;
+	margin-bottom: -0.15em;
+	color: #154275;
+}
+
+#temp h4 {
+	align-self: center;
+	margin-bottom: 1em
+}
+
+#temp h3 {
+	align-self: center;
+	margin: 0;
+}
+
+#current {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 4.5em;
+	align-content: center;
+	margin-top: .2em;
+}
+
+#current h4 {
+	margin: .5em;
+}
+
+h4:first-child {
+	align-self: flex-end
+}
+
+#hourly-forcast {
+	background-color: #154275;
+}
+
+#hourly {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	padding: auto;
+	background-color: #154275;
+}
+
+#hourly h3 {
+	width: 100%;
+}
+
+#hourly ul {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	padding-right: .8vw;
+	display: none;
+}
+
+#hourly li {
+	margin: auto;
+}
+
+#hourly .a{
+	display: flex;
+}
+
+#hourly ul li b {
+	font-size: 1.75em
+}
+
+footer {
+	background-color: #4f9e11;
+}
+
+@media (min-width: 800px) {
+	#header h2 {
+		display: flex;
+	}
+
+	#temp h2 {
+		display: none;
+	}
+
+	main {
+
+	}
+}
+
+@media (min-width: 450px) {
+	#hourly .b {
+		display: flex;
+		width: 25%;
+	}
+
+	#hourly .b li {
+		margin-right: 7px;
+	}
+}
+
+@media (min-width: 600px) {
+	#hourly .a {
+		width: 60%;
+	}
+
+
+	#hourly .b {
+		width: 20%;
+	}
+
+	#hourly .c {
+		display: flex;
+		width: 20%;
+	}
+}
+
+@media (min-width: 700px) {
+	#hourly .a {
+		width: 50%;
+	}
+
+
+	#hourly .b {
+		width: 16.6%;
+	}
+
+	#hourly .c {
+		display: flex;
+		width: 16.6%;
+	}
+
+	#hourly .d{
+		display: flex;
+		width: 16.6%;
+	}
+}
+
+@media (min-width: 785px) {
+	#hourly .a {
+		width: 42.7%;
+	}
+
+
+	#hourly .b {
+		width: 14.2%;
+	}
+
+	#hourly .c {
+		display: flex;
+		width: 14.2%;
+	}
+
+	#hourly .d{
+		display: flex;
+		width: 14.2%;
+	}
+
+	#hourly .e{
+		display: flex;
+		width: 14.2%;
+	}
+}
+
+@media (min-width: 913px) {
+	#hourly .a {
+		width: 37.5%;
+	}
+
+
+	#hourly .b {
+		width: 12.5%;
+	}
+
+	#hourly .c {
+		display: flex;
+		width: 12.5%;
+	}
+
+	#hourly .d{
+		display: flex;
+		width: 12.5%;
+	}
+
+	#hourly .e{
+		display: flex;
+		width: 12.5%;
+	}
+
+	#hourly .f{
+		display: flex;
+		width: 12.5%;
+	}
+}
+
+@media (min-width: 1013px) {
+	#hourly .a {
+		width: 33.3%;
+	}
+
+
+	#hourly .b {
+		width: 11.1%;
+	}
+
+	#hourly .c {
+		display: flex;
+		width: 11.1%;
+	}
+
+	#hourly .d{
+		display: flex;
+		width: 11.1%;
+	}
+
+	#hourly .e{
+		display: flex;
+		width: 11.1%;
+	}
+
+	#hourly .f{
+		display: flex;;
+		width: 11.1%;
+	}
+
+	#hourly .g{
+		display: flex;
+		width: 11.1%;
+	}
+}
