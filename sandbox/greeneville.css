@@ -7,6 +7,7 @@
 	flex-direction: row;
 	align-items: flex-start;
 	margin: auto;
+	background-color: #4470b9;
 }
 
 h1 {
@@ -57,6 +58,8 @@ nav ul li {
 main {
 	background-image: url("/RictonL.github.io/weather/images/sunny-day-background.jpg");
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
 }
 
 #temp {
@@ -69,7 +72,7 @@ main h2 {
 	align-self: center;
 	font-size: 2.5em;
 	margin: 0;
-	margin-top: .3em
+	margin-top: .0em;
 }
 
 #temp p {
@@ -84,7 +87,12 @@ main h2 {
 	margin-bottom: 1em
 }
 
-#temp h3 {
+#current-conditions {
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
 	align-self: center;
 	margin: 0;
 }
@@ -155,16 +163,46 @@ footer {
 		display: flex;
 	}
 
-	#temp h2 {
+	main h2 {
 		display: none;
 	}
 
-	main {
-
+	#dynamic {
+		display: flex;
+		flex-direction: row;
+		padding: auto;
+		margin: auto;
+		justify-content: center;
+		height: 55.1vh
 	}
 
-	#temp p{
+	#temp {
+		margin-right: 2em;
+	}
 
+	#temp p {
+		font-size: 15em;
+	}
+
+	#temp h4 {
+		font-size: 1.75em;
+	}
+
+	#current-conditions {
+		margin: auto;
+		margin-left: 2em;
+		font-size: 1.5em;
+		justify-content: center;
+	}
+
+	#current {
+		height: 7em;
+		justify-content: center
+	}
+
+	#current h4 {
+		margin: 1em;
+		height:
 	}
 }
 
