@@ -2,6 +2,30 @@
 	margin: 0;
 }
 
+h1 {
+	font-family: 'Merriweather', serif;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+}
+
+h3 {
+	font-family: 'Merriweather', serif;
+}
+
+h4 {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+}
+
+li {
+	font-family: 'Droid Sans', sans-serif;
+}
+
 #header {
 	display: flex;
 	flex-direction: row;
@@ -287,7 +311,7 @@ footer {
 	}
 }
 
-@media (min-width: 1013px) {
+@media (min-width: 1100px) {
 	#hourly .a {
 		width: 33.3%;
 	}
