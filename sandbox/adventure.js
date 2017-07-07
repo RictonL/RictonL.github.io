@@ -33,7 +33,10 @@ var instructions = [
 	"ending" : true
 	}];
 
-
+function main() {
+	$('h1').text(instructions[2]);
+}
+$(document).ready(main);
 //updates the screen to show the current description and choices
 //requires the id of the new set of instructions
 function nextStep(id) {
