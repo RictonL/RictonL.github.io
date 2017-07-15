@@ -1,0 +1,192 @@
+* {
+	background-color: ;
+}
+
+header {
+	border: solid;
+	background-color: slategray;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	margin: 0px;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	background-color: black;
+	height: 2em;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin-left: 1em;
+}
+
+#product_list_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#product_list_container div {
+	width: 23%;
+	margin: .2em;
+}
+
+#product_list_container div div {
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
+#product_list_container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#product_list_container2 div {
+	width: 23%;
+	margin: .2em;
+}
+
+#product_list_container2 div div {
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+
+h4 {
+	margin-top: 0;
+	height: 2em;
+}
+
+img {
+	width: 25vw;
+}
+
+h5 {
+	margin-bottom: 0;
+	margin-top: .5em;
+}
+
+button {
+	margin-left: 1.6em;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	width: 95%;
+}
+
+.modal-content {
+	width: 80%;
+}
+
+.close {
+
+}
+
+#specs {
+	display: block;
+}
+
+button {
+	background-color: slategray;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: darkslategray;
+}
+
+/*Contact page*/
+#first {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid slategray;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+#last {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid slategray;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+	padding: 12px;
+	border: 1px solid slategray;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+
+input[type=submit] {
+	background-color: slategray;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+/*contact page end*/
+
+input[type=submit]:hover {
+	background-color: darkslategray;
+}
+
+@media (max-width: 550px) {
+	#product_list_container div {
+		width: 48%;
+	}
+
+	#product_list_container2 div {
+		width: 48%;
+	}
+}

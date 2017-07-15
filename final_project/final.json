@@ -1,0 +1,165 @@
+{
+	"zzr600": {
+		"id": "2007 Kawasaki ZZR600",
+		"capacity": 599,
+		"power": 97.89,
+		"torque": 66,
+		"weight": 487.2,
+		"speed": 146.64
+	},
+	"yzf-r6": {
+		"id": "2017 Yamaha YZF-R6",
+		"capacity": 599,
+		"power": 123.6,
+		"torque": 67.5,
+		"weight": 417,
+		"speed": 160
+	},
+	"r6": {
+		"id": "2017 Kawasaki Ninja 650",
+		"capacity": 600,
+		"power": 123,
+		"torque": 68.5,
+		"weight": 434,
+		"speed": 160
+	},
+	"cbr600rr": {
+		"id": "2006 Honda CBR600RR",
+		"capacity": 599,
+		"power": 118,
+		"torque": 66,
+		"weight": 410,
+		"speed": 158.6
+	},
+	"sv650": {
+		"id": "2003 Suzuki SV650",
+		"capacity": 645,
+		"power": 72,
+		"torque": 84,
+		"weight": 430,
+		"speed": 129
+	},
+	"superDuke": {
+		"id": "2017 KTM Super Duke",
+		"capacity": 1301,
+		"power": 179.45,
+		"torque": 104,
+		"weight": 449,
+		"speed": 162
+	},
+	"fz-09": {
+		"id": "2017 Yamaha FZ-09",
+		"capacity": 847,
+		"power": "N/A",
+		"torque": 64.5,
+		"weight": 425,
+		"speed": 1
+	},
+	"brutale800": {
+		"id": "2017 MV Agusta Brutale 800",
+		"capacity": 798,
+		"power": 116,
+		"torque": 83,
+		"weight": "386 (dry)",
+		"speed": 147.3
+	},
+	"xl185s": {
+		"id": "1982 Honda XL 185 S",
+		"capacity": 180,
+		"power": 16,
+		"torque": "",
+		"weight": 260,
+		"speed": 71.5,
+		"strokes": 4
+	},
+	"300se-r": {
+		"id": "2017 Sherco 300 SE-R",
+		"capacity": 293.14,
+		"power": "",
+		"torque": "",
+		"weight": 231.49,
+		"speed": 96.3,
+		"strokes": 2
+	},
+	"rr480": {
+		"id": "2017 BETA RR480",
+		"capacity": 477.5,
+		"power": "",
+		"torque": "",
+		"weight": "235 (dry)",
+		"speed": 71.5,
+		"strokes": 4
+	},
+	"xl185s": {
+		"id": "1982 Honda XL 185 S",
+		"capacity": 180,
+		"power": 16,
+		"torque": 0,
+		"weight": 260,
+		"speed": 71.5
+	},
+	"xl185s": {
+		"id": "1982 Honda XL 185 S",
+		"capacity": 180,
+		"power": 16,
+		"torque": 0,
+		"weight": 260,
+		"speed": 71.5
+	},
+	"xl185s": {
+		"id": "1982 Honda XL 185 S",
+		"capacity": 180,
+		"power": 16,
+		"torque": 0,
+		"weight": 260,
+		"speed": 71.5
+	},
+	"xdiavels": {
+		"id": "2017 Ducati XDiavel S",
+		"capacity": 1262,
+		"power": 152,
+		"torque": 93,
+		"weight": 545,
+		"speed": ""
+	},
+	"streetglide": {
+		"id": "2017 Harley Davidson Street Glide",
+		"capacity": 1746,
+		"power": "N/A",
+		"torque": 111.4,
+		"weight": "830 (dry)",
+		"speed": "N/A"
+	},
+	"bobber": {
+		"id": "2017 Triumph Bonneville Bobber",
+		"capacity": 1200,
+		"power": 78,
+		"torque": 78.2,
+		"weight": "503 (dry)",
+		"speed": ""
+	},
+	"goldwing": {
+		"id": "2017 Honda GoldWing",
+		"capacity": 1832,
+		"power": 116.67,
+		"torque": 167,
+		"weight": 928,
+		"speed": ""
+	},
+	"trophy": {
+		"id": "2017 Triumph Trophy",
+		"capacity": 1215,
+		"power": 132,
+		"torque": 88,
+		"weight": 928,
+		"speed": ""
+	},
+	"multistrada1200s": {
+		"id": "Ducati Multistrada 1200 S",
+		"capacity": 1198,
+		"power": 150,
+		"torque": 87.5,
+		"weight": 527,
+		"speed": 145
+	}
+}

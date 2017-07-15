@@ -1,14 +1,12 @@
-var instructions = [
+var specs = [
 	{
 		"id": 1,
-		"choices": {
-			"first": 2,
-			"second": 3
-		},
-		"choiceText": "choose 1",
-		"title": "The Adventure Begins",
-		"description": "This is where you setup your initial story",
-	"ending" : false
+		"capacity": 1,
+		"cooling": "choose 1",
+		"power": "The Adventure Begins",
+		"torque": "This is where you setup your initial story",
+		"wetWeight": false,
+		"topSpeed": 1,
 	},
 	{
 		"id": 2,
