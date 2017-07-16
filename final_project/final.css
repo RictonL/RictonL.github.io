@@ -28,7 +28,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	height: inherit;
-	min-height: 2Sem;
+	min-height: 2em;
 }
 
 main {
@@ -199,6 +199,10 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+input[type=submit]:hover {
+	background-color: darkslategray;
+}
+
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
@@ -208,9 +212,6 @@ input[type=submit] {
 
 /*contact page end*/
 
-input[type=submit]:hover {
-	background-color: darkslategray;
-}
 
 @media (max-width: 600px) {
 	h1 {
