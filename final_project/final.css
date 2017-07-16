@@ -9,12 +9,11 @@ body {
 header {
 	border: solid;
 	background-color: slategray;
-	width: 100%;
+	width: 99%;
 	position: sticky;
 	top: 0;
 	margin: 0px;
 	padding: 0;
-	height: 6.9em;
 }
 
 h1 {
@@ -32,6 +31,8 @@ nav ul {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	height: inherit;
+	min-height: 2em;
 }
 
 main {
@@ -86,7 +87,7 @@ h4 {
 }
 
 img {
-	width: 32vw;
+	width: 100%;
 }
 
 h5 {
@@ -157,7 +158,7 @@ footer {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	left: 1;
+	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
@@ -189,10 +190,8 @@ footer {
 }
 
 p {
-/*
 	margin: 0.5em 1em
 }
-*/
 
 /*Contact page*/
 #first {
@@ -248,12 +247,43 @@ input[type=submit]:hover {
 	background-color: darkslategray;
 }
 
-@media (max-width: 550px) {
-	#product_list_container div {
+@media (max-width: 600px) {
+	h1 {
+		text-align: center
+	}
+
+	.product_list_container div {
 		width: 48%;
 	}
 
-	#product_list_container2 div {
+	.product_list_container2 div {
 		width: 48%;
+	}
+}
+
+@media (max-width: 345px) {
+	header {
+		height: 7.2em;
+	}
+
+	main {
+		margin-top: 3.7em;
+	}
+
+	nav ul {
+		flex-wrap: wrap;
+	}
+
+	nav ul li {
+		margin: 5px;
+	}
+
+@media (max-width: 320px) {
+	.product_list_container div {
+		width: 100%;
+	}
+
+	.product_list_container2 div {
+		width: 100%;
 	}
 }
