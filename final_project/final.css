@@ -107,6 +107,11 @@ button {
 	margin-left: 2em;
 }
 
+#id {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 .button {
 	background-color: slategray;
 	color: white;
