@@ -21,20 +21,40 @@ $(function () {
 
 
 
-var list = document.querySelectorAll("#product_list_container > div");
+var list = document.querySelectorAll(".product_list_container > div");
 list.forEach(function(item) {
 	item.addEventListener('click', function(e){ getData(item.id);
 	});
 }
 )
 
-var list2 = document.querySelectorAll("#product_list_container2 > div");
+var list2 = document.querySelectorAll(".product_list_container2 > div");
 list2.forEach(function(item) {
 	item.addEventListener('click', function(e){ getData(item.id);
 	});
 }
 )
 });
+
+
+//Modal
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = funtion() {
+	modal.style.display = "block";
+}
+
+span.onclick = function() {
+	modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+	if {event.target == modal} {
+		modal.style.display = "none";
+	}
+}
 
 
 

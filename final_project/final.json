@@ -1,12 +1,4 @@
 {
-	"zzr600": {
-		"id": "2007 Kawasaki ZZR600",
-		"capacity": 599,
-		"power": 97.89,
-		"torque": 66,
-		"weight": 487.2,
-		"speed": 146.64
-	},
 	"yzf-r6": {
 		"id": "2017 Yamaha YZF-R6",
 		"capacity": 599,
@@ -55,14 +47,6 @@
 		"weight": 425,
 		"speed": 1
 	},
-	"brutale800": {
-		"id": "2017 MV Agusta Brutale 800",
-		"capacity": 798,
-		"power": 116,
-		"torque": 83,
-		"weight": "386 (dry)",
-		"speed": 147.3
-	},
 	"xl185s": {
 		"id": "1982 Honda XL 185 S",
 		"capacity": 180,
@@ -90,29 +74,29 @@
 		"speed": 71.5,
 		"strokes": 4
 	},
-	"xl185s": {
-		"id": "1982 Honda XL 185 S",
-		"capacity": 180,
-		"power": 16,
-		"torque": 0,
-		"weight": 260,
-		"speed": 71.5
+	"crf250l": {
+		"id": "2014 honda CRF250L",
+		"capacity": 249.6,
+		"power": 22.8,
+		"torque": 22,
+		"weight": 320,
+		"speed": ""
 	},
-	"xl185s": {
-		"id": "1982 Honda XL 185 S",
-		"capacity": 180,
-		"power": 16,
-		"torque": 0,
-		"weight": 260,
-		"speed": 71.5
+	"fx450": {
+		"id": "2017 Husqvarna FX 450",
+		"capacity": 449.9,
+		"power": 63,
+		"torque": "",
+		"weight": "224 (dry)",
+		"speed": ""
 	},
-	"xl185s": {
-		"id": "1982 Honda XL 185 S",
-		"capacity": 180,
-		"power": 16,
-		"torque": 0,
-		"weight": 260,
-		"speed": 71.5
+	"yz250fx": {
+		"id": "2016 Yamaha YZ250FX",
+		"capacity": 250,
+		"power": "",
+		"torque": "",
+		"weight": 249,
+		"speed": ""
 	},
 	"xdiavels": {
 		"id": "2017 Ducati XDiavel S",
