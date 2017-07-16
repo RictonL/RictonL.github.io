@@ -1,7 +1,3 @@
-* {
-
-}
-
 body {
 	margin: 0;
 }
@@ -103,7 +99,6 @@ button {
 	margin-left: 1.6em;
 }
 
-
 .specs {
 	display: block;
 }
@@ -149,14 +144,16 @@ footer {
 	flex-direction: row-reverse;
 	width: 100%;
 	background-color: slategray;
-	}
+}
 
 .links {
 	width: 52vw;
 	text-align: left;
 }
 
+
 /*Modal*/
+
 .modal {
 	display: none;
 	position: fixed;
@@ -166,8 +163,8 @@ footer {
 	width: 100%;
 	height: 100%;
 	overflow: auto;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -196,7 +193,9 @@ p {
 	margin: 0.5em 1em
 }
 
+
 /*Contact page*/
+
 #first {
 	width: 100%;
 	padding: 12px;
@@ -229,7 +228,6 @@ textarea {
 	resize: vertical;
 }
 
-
 input[type=submit] {
 	background-color: slategray;
 	color: white;
@@ -244,6 +242,8 @@ input[type=submit] {
 	background-color: #f2f2f2;
 	padding: 20px;
 }
+
+
 /*contact page end*/
 
 input[type=submit]:hover {
@@ -254,11 +254,9 @@ input[type=submit]:hover {
 	h1 {
 		text-align: center
 	}
-
 	.product_list_container div {
 		width: 48%;
 	}
-
 	.product_list_container2 div {
 		width: 48%;
 	}
@@ -268,25 +266,20 @@ input[type=submit]:hover {
 	header {
 		height: 7.2em;
 	}
-
 	main {
 		margin-top: 3.7em;
 	}
-
 	nav ul {
 		flex-wrap: wrap;
 	}
-
 	nav ul li {
 		margin: 5px;
 	}
-
-@media (max-width: 320px) {
-	.product_list_container div {
-		width: 100%;
+	@media (max-width: 320px) {
+		.product_list_container div {
+			width: 100%;
+		}
+		.product_list_container2 div {
+			width: 100%;
+		}
 	}
-
-	.product_list_container2 div {
-		width: 100%;
-	}
-}
