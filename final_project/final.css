@@ -237,11 +237,14 @@ input[type=submit]:hover {
 	nav ul li {
 		margin: 5px;
 	}
-	@media (max-width: 320px) {
-		.product_list_container div {
-			width: 100%;
-		}
-		.product_list_container2 div {
-			width: 100%;
-		}
+}
+
+@media (max-width: 320px) {
+	.product_list_container div {
+		width: 100%;
 	}
+
+	.product_list_container2 div {
+			width: 100%;
+	}
+}
