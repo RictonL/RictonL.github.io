@@ -1,9 +1,53 @@
 * {
-	background: red;
+
+}
+
+main {
 	font-family: sans-serif;
+	background-color: #f2f2f2;
 }
 
 
 img {
 	height: 40vh;
+}
+
+header {
+	border: solid;
+	background-color: slategray;
+	width: 99%;
+	position: sticky;
+	top: 0;
+	margin: 0px;
+	padding: 0;
+}
+
+h1 {
+	margin-left: 1em;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	background-color: black;
+	height: 2em;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: inherit;
+	min-height: 2Sem;
+}
+
+main {
+	margin-top: 0;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+h2 {
+	margin-left: 1em;
 }
