@@ -19,8 +19,6 @@ $(function () {
 		});
 	}
 
-
-
 	var list = document.querySelectorAll(".product_list_container > div");
 	list.forEach(function (item) {
 		item.addEventListener('click', function (e) {
